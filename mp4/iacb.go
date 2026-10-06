@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/iamf"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/iamf"
 )
 
 // IacbBox - IAMF Configuration Box (iacb)

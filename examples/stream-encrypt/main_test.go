@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 func TestStep1_BasicHTTPStreaming(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // generalTypeBox implements the GeneralTypeBox syntax of ISO/IEC 14496-12:2026

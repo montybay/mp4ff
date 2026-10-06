@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/sei"
+	"github.com/montybay/mp4ff/sei"
 )
 
 var (

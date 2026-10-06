@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/av1"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/av1"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 func TestEncodeDecodeAvc1(t *testing.T) {

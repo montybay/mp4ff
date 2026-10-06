@@ -5,7 +5,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // SaizBox - Sample Auxiliary Information Sizes Box (saiz)  (in stbl or traf box)

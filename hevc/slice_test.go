@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/avc"
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/avc"
+	"github.com/montybay/mp4ff/bits"
 
 	"github.com/go-test/deep"
 )

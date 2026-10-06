@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/avc"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/avc"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 func TestOptions(t *testing.T) {

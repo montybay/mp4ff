@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 /* Elementary Stream Descriptors are defined in ISO/IEC 14496-1.

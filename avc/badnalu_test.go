@@ -3,7 +3,7 @@ package avc_test
 import (
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/avc"
+	"github.com/montybay/mp4ff/avc"
 )
 
 // TestScanBadSamples checks that the sample scanning functions handle samples

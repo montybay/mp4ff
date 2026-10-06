@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // Real sequence header OBU payload from AOM fate-suite av1-1-b8-23-film_grain-50.ivf.

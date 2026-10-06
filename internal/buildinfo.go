@@ -9,7 +9,7 @@ import (
 
 // commitVersion and commitDate, in Epoch seconds, are for builds without git information, such as
 // from a source archive, which set them at link time with -ldflags
-// "-X github.com/Eyevinn/mp4ff/internal.commitVersion=v1.2.3 -X github.com/Eyevinn/mp4ff/internal.commitDate=<seconds>".
+// "-X github.com/montybay/mp4ff/internal.commitVersion=v1.2.3 -X github.com/montybay/mp4ff/internal.commitDate=<seconds>".
 var (
 	commitVersion string
 	commitDate    string

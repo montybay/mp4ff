@@ -6,7 +6,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 func TestCommandLine(t *testing.T) {

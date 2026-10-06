@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // UUIDs for different DRM systems

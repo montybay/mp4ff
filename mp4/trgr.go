@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // TrgrBox - Track Group Box (trgr), ISO/IEC 14496-12 Sec. 8.3.4. A container in a

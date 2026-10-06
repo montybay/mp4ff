@@ -8,7 +8,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // UUID - 16-byte KeyID or SystemID

@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/hevc"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/hevc"
 )
 
 // LhvCBox - LHEVCConfigurationBox (ISO/IEC 14496-15 Ed. 7 Sec. 9.5.3.1)

@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/Eyevinn/mp4ff/av1"
-	"github.com/Eyevinn/mp4ff/avc"
-	"github.com/Eyevinn/mp4ff/hevc"
+	"github.com/montybay/mp4ff/av1"
+	"github.com/montybay/mp4ff/avc"
+	"github.com/montybay/mp4ff/hevc"
 )
 
 type cryptoDir int

@@ -3,7 +3,7 @@ package av1
 import (
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // TileRange marks the byte range of a single tile's coded data (the decode_tile structure)

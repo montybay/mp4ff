@@ -7,7 +7,7 @@ import (
 	"image/jpeg"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 // TestMJpegMuxDemux muxes generated JPEG frames into a fragmented MP4 with an mjpg track

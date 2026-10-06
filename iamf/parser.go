@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/Eyevinn/mp4ff/aac"
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/aac"
+	"github.com/montybay/mp4ff/bits"
 )
 
 /**

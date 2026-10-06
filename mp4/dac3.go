@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // AC3SampleRates - Sample rates as defined in  ETSI TS 102 366 V1.4.1 (2017) section 4.4.1.3

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 // interleavedSegment returns an encoded fragment with two tracks whose samples are interleaved in runs of three,

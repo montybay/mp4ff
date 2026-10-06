@@ -6,8 +6,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/ivf"
 	"github.com/go-test/deep"
+	"github.com/montybay/mp4ff/ivf"
 )
 
 func TestRoundTrip(t *testing.T) {

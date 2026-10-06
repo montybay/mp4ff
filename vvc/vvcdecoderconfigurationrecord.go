@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // ErrInvalidLengthSize is returned for a LengthSizeMinusOne other than 0, 1, or 3,

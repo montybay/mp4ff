@@ -14,11 +14,11 @@ import (
 	"io"
 	"os"
 
-	"github.com/Eyevinn/mp4ff/av1"
-	"github.com/Eyevinn/mp4ff/ivf"
-	"github.com/Eyevinn/mp4ff/mp4"
-	"github.com/Eyevinn/mp4ff/vp8"
-	"github.com/Eyevinn/mp4ff/vp9"
+	"github.com/montybay/mp4ff/av1"
+	"github.com/montybay/mp4ff/ivf"
+	"github.com/montybay/mp4ff/mp4"
+	"github.com/montybay/mp4ff/vp8"
+	"github.com/montybay/mp4ff/vp9"
 )
 
 func main() {

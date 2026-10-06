@@ -7,7 +7,7 @@ import (
 
 func TestVersionString(t *testing.T) {
 	built := func(version, vcsTime string) *debug.BuildInfo {
-		info := &debug.BuildInfo{Main: debug.Module{Path: "github.com/Eyevinn/mp4ff", Version: version}}
+		info := &debug.BuildInfo{Main: debug.Module{Path: "github.com/montybay/mp4ff", Version: version}}
 		if vcsTime != "" {
 			info.Settings = []debug.BuildSetting{
 				{Key: "vcs.revision", Value: "5f8fd3bc0bba8bc523ccb10bc21c588c16a691bf"},

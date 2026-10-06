@@ -3,7 +3,7 @@ package mp4
 import (
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // DefaultMaxActivationSeconds is the maximum period of activation, T_MPA, that a

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // EvteBox - EventMessageSampleEntry box as defined in ISO/IEC 23001-18 Section 7.2

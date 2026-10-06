@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/vvc"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/vvc"
 )
 
 // VvcCBox - VVC Configuration Box (ISO/IEC 14496-15)

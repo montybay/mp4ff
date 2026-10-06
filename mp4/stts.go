@@ -6,7 +6,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // SttsBox -  Decoding Time to Sample Box (stts - mandatory)

@@ -3,8 +3,8 @@ package mp4_test
 import (
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 // TestDecodeSampleTableTruncated verifies that every sample-table decoder

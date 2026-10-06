@@ -7,7 +7,7 @@ import (
 	"io"
 	"slices"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // FragmentDecoder decodes the fragments of a fragmented stream one at a time from slices. Each box is decoded into

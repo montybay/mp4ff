@@ -3,7 +3,7 @@ package av1
 import (
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // Constants from the AV1 specification (section 3).

@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/avc"
-	"github.com/Eyevinn/mp4ff/sei"
+	"github.com/montybay/mp4ff/avc"
+	"github.com/montybay/mp4ff/sei"
 )
 
 func TestParseSEINaluTruncatedType4(t *testing.T) {

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 type RefragmentConfig struct {

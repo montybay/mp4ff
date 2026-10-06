@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/mp4"
 	"github.com/go-test/deep"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 func TestPsshFromBase64(t *testing.T) {

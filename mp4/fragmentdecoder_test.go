@@ -10,8 +10,8 @@ import (
 	"testing"
 	"testing/iotest"
 
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 // decodeAllFragments decodes data fragment by fragment with one FragmentDecoder and calls fn for each.

@@ -3,7 +3,7 @@ package av1
 import (
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // AV1 constants used in sequence_header_obu() (spec 3 and 6.4.2).

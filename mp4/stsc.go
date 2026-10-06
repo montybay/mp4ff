@@ -5,7 +5,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // StscBox is Sample To Chunk Box in progressive file.

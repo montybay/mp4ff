@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // ClliBox - Content Light Level Box (clli), ISO/IEC 14496-12 Sec. 12.1.6.

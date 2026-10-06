@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 func makeSingleTrackSegments(segmenter *Segmenter, parsedMp4 *mp4.File, rs io.ReadSeeker, outFilePath string) error {

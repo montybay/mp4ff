@@ -3,7 +3,7 @@ package mp4
 import (
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/hevc"
+	"github.com/montybay/mp4ff/hevc"
 )
 
 // BuildOinfFromVPS builds an Operating Points Information sample group entry

@@ -5,8 +5,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/mp4"
 	"github.com/go-test/deep"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 var tfhdRawBox = "0000001c746668640002002a000000010000000100001c2000010000"
