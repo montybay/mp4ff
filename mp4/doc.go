@@ -226,11 +226,11 @@ Following the ISOBMFF standard, sample numbers and other numbers start at 1 (one
 This applies to arguments of functions and methods.
 The actual storage in slices is zero-based, so sample nr 1 has index 0 in the corresponding slice.
 
-[examples/initcreator]: https://pkg.go.dev/Eyevinn/mp4ff/examples/initcreator
-[examples/segmenter]: https://pkg.go.dev/Eyevinn/mp4ff/examples/segmenter
-[README.md of the mp4ff module]: https://pkg.go.dev/github.com/Eyevinn/mp4ff#section-readme
-[bits/SliceReader]: https://pkg.go.dev/Eyevinn/mp4ff/bits#SliceReader
+[examples/initcreator]: https://pkg.go.dev/montybay/mp4ff/examples/initcreator
+[examples/segmenter]: https://pkg.go.dev/montybay/mp4ff/examples/segmenter
+[README.md of the mp4ff module]: https://pkg.go.dev/github.com/montybay/mp4ff#section-readme
+[bits/SliceReader]: https://pkg.go.dev/montybay/mp4ff/bits#SliceReader
 
-[bits/SliceWriter]: https://pkg.go.dev/Eyevinn/mp4ff/bits#SliceWriter
+[bits/SliceWriter]: https://pkg.go.dev/montybay/mp4ff/bits#SliceWriter
 */
 package mp4

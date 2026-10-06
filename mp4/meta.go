@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // MetaBox is MPEG-4 Meta box or QuickTime meta Atom (without version and flags)

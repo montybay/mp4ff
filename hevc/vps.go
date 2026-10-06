@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // maxLayers is the maximum number of layers supported when parsing the

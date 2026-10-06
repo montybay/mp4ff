@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/sei"
+	"github.com/montybay/mp4ff/sei"
 )
 
 func TestCTA608ITUDataEncode(t *testing.T) {

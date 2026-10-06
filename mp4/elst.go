@@ -5,7 +5,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // ElstBox - Edit List Box (elst - optional)

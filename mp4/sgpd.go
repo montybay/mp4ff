@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // SgpdBox - Sample Group Description Box, ISO/IEC 14496-12 6'th edition 2020 Section 8.9.3

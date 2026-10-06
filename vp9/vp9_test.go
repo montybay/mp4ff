@@ -3,7 +3,7 @@ package vp9_test
 import (
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/vp9"
+	"github.com/montybay/mp4ff/vp9"
 )
 
 // A minimal VP9 profile-0 key-frame uncompressed header for 320x180, color_space CS_UNKNOWN,

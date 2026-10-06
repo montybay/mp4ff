@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 func createDolbyVisionInit(t *testing.T, descriptorType string, includePS bool) (*mp4.InitSegment, error) {

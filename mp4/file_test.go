@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/aac"
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
 	"github.com/go-test/deep"
+	"github.com/montybay/mp4ff/aac"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 func TestDecodeFileWithLazyMdatOption(t *testing.T) {
@@ -187,7 +187,7 @@ func TestFilesWithEmsg(t *testing.T) {
 	init := mp4.CreateEmptyInit()
 	init.AddEmptyTrack(uint32(48000), "audio", "en")
 	trak := init.Moov.Trak
-	err := trak.SetAACDescriptor(aac.AAClc, 48000)
+	err := trak.SetAACDescriptor(aac.AAClc, 2, 48000)
 	if err != nil {
 		t.Error(err)
 	}

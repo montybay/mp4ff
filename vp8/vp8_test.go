@@ -3,7 +3,7 @@ package vp8_test
 import (
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/vp8"
+	"github.com/montybay/mp4ff/vp8"
 )
 
 // A VP8 key-frame header for 320x180: frame tag 0x50 0x63 0x00 (key_frame bit 0 = 0, version 0,

@@ -10,7 +10,7 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // Fragment - MP4 Fragment ([emsg] [prft] + moof + mdat)

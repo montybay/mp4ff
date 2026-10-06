@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // Flags of the RsotBox. The names follow ISO/IEC 14496-12 Section 8.8.18.3,

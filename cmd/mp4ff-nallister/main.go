@@ -9,12 +9,12 @@ import (
 	"io"
 	"os"
 
-	"github.com/Eyevinn/mp4ff/avc"
-	"github.com/Eyevinn/mp4ff/hevc"
-	"github.com/Eyevinn/mp4ff/internal"
-	"github.com/Eyevinn/mp4ff/mp4"
-	"github.com/Eyevinn/mp4ff/sei"
-	"github.com/Eyevinn/mp4ff/vvc"
+	"github.com/montybay/mp4ff/avc"
+	"github.com/montybay/mp4ff/hevc"
+	"github.com/montybay/mp4ff/internal"
+	"github.com/montybay/mp4ff/mp4"
+	"github.com/montybay/mp4ff/sei"
+	"github.com/montybay/mp4ff/vvc"
 )
 
 const (

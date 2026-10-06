@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 // TestUnknown including non-ascii character in name (box typs is uint32 according to spec)

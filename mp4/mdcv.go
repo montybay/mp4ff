@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // MdcvBox - Mastering Display Colour Volume Box (mdcv), ISO/IEC 14496-12 Sec. 12.1.7.

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // SaioBox - Sample Auxiliary Information Offsets Box (saiz) (in stbl or traf box)

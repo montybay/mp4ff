@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/sei"
+	"github.com/montybay/mp4ff/sei"
 )
 
 // CreateCTA608MetadataOBU returns a complete metadata OBU carrying CTA-608 closed

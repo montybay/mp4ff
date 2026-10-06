@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // MimeBox - MIME Box as defined in ISO/IEC 14496-12 2020 Section 12.3.3.2

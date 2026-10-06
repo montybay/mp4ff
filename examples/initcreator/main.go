@@ -7,9 +7,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/Eyevinn/mp4ff/aac"
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/aac"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 const (
@@ -110,7 +110,7 @@ func writeAudioAACInitSegment(outPath string) error {
 	audioTimeScale := 48000
 	init := mp4.CreateEmptyInit()
 	trak := init.AddEmptyTrack(uint32(audioTimeScale), "audio", "en")
-	err := trak.SetAACDescriptor(aac.AAClc, audioTimeScale)
+	err := trak.SetAACDescriptor(aac.AAClc, 2, audioTimeScale)
 	if err != nil {
 		return err
 	}

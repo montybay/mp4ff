@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/hevc"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/hevc"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 // stereoVPSHex is a real MV-HEVC stereo VPS (GPAC output) with a vps_extension():

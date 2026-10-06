@@ -3,7 +3,7 @@ package mp4
 import (
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // OinfSampleGroupEntry - Operating Points Information sample group entry ('oinf')

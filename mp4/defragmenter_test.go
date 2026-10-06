@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/mp4"
 	"github.com/go-test/deep"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 const (
@@ -45,7 +45,7 @@ func createDefragInit(t *testing.T) *mp4.InitSegment {
 	edts.AddChild(&mp4.ElstBox{Entries: append([]mp4.ElstEntry{}, defragVideoElstEntries...)})
 	videoTrak.AddChild(edts)
 	audioTrak := init.AddEmptyTrack(defragAudioTimescale, "audio", "eng")
-	if err := audioTrak.SetAACDescriptor(2, defragAudioTimescale); err != nil {
+	if err := audioTrak.SetAACDescriptor(2, 2, defragAudioTimescale); err != nil {
 		t.Fatal(err)
 	}
 	return init
@@ -2145,7 +2145,7 @@ func TestDefragmentConstantIVEncryptionPassesThrough(t *testing.T) {
 	init := mp4.CreateEmptyInit()
 	init.Moov.Mvhd.Timescale = 600
 	trak := init.AddEmptyTrack(defragAudioTimescale, "audio", "en")
-	if err := trak.SetAACDescriptor(2, defragAudioTimescale); err != nil {
+	if err := trak.SetAACDescriptor(2, 2, defragAudioTimescale); err != nil {
 		t.Fatal(err)
 	}
 	key, _ := hex.DecodeString("00112233445566778899aabbccddeeff")

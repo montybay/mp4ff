@@ -3,7 +3,7 @@ package hevc_test
 import (
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/hevc"
+	"github.com/montybay/mp4ff/hevc"
 )
 
 // TestScanBadSamples checks that the sample scanning functions handle samples

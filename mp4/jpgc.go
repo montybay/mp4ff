@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // JpgCBox - JPEGConfigurationBox as defined in ISO/IEC 23008-12 Annex H.

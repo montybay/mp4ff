@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 func TestLeb128RoundTrip(t *testing.T) {

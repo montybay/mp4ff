@@ -8,8 +8,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 // decodeAV1Fragments returns the fragments of the multi-tile AV1 test segment, decoded fresh

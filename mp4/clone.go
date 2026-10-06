@@ -3,7 +3,7 @@ package mp4
 import (
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // CloneBox returns a deep copy of a box, made by encoding it and decoding the

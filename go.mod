@@ -1,4 +1,4 @@
-module github.com/Eyevinn/mp4ff
+module github.com/montybay/mp4ff
 
 go 1.23
 

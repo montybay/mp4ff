@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Eyevinn/mp4ff/aac"
-	"github.com/Eyevinn/mp4ff/avc"
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/hevc"
+	"github.com/montybay/mp4ff/aac"
+	"github.com/montybay/mp4ff/avc"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/hevc"
 )
 
 // InitSegment - MP4/CMAF init segment
@@ -329,11 +329,12 @@ func (s *InitSegment) TweakSingleTrakLive() error {
 // SetAACDescriptor - Modify a TrakBox by adding AAC SampleDescriptor
 // objType is one of AAClc, HEAACv1, HEAACv2
 // For HEAAC, the samplingFrequency is the base frequency (normally 24000)
-func (t *TrakBox) SetAACDescriptor(objType byte, samplingFrequency int) error {
+// HEAACv2 is limited internally to 'mono', although it encodes parametric stereo
+func (t *TrakBox) SetAACDescriptor(objType byte, channelConfiguration byte, samplingFrequency int) error {
 	stsd := t.Mdia.Minf.Stbl.Stsd
 	asc := &aac.AudioSpecificConfig{
 		ObjectType:           objType,
-		ChannelConfiguration: 2,
+		ChannelConfiguration: channelConfiguration,
 		SamplingFrequency:    samplingFrequency,
 		ExtensionFrequency:   0,
 		SBRPresentFlag:       false,

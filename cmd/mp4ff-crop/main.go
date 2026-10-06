@@ -9,8 +9,8 @@ import (
 	"os"
 	"sort"
 
-	"github.com/Eyevinn/mp4ff/internal"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/internal"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 const (

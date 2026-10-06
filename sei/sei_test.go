@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/sei"
 	"github.com/go-test/deep"
+	"github.com/montybay/mp4ff/sei"
 )
 
 func TestSEIStrings(t *testing.T) {

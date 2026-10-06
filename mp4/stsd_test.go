@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/aac"
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/aac"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 func TestStsd(t *testing.T) {

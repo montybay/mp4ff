@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
-	"github.com/Eyevinn/mp4ff/vvc"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/mp4"
+	"github.com/montybay/mp4ff/vvc"
 )
 
 func TestVvcCBox(t *testing.T) {

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/aac"
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/aac"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 const (
@@ -232,7 +232,7 @@ func createVideoMJpegInitSegment() (*mp4.InitSegment, error) {
 func createAudioAACInitSegment(timeScale uint32, objType byte) (*mp4.InitSegment, error) {
 	init := mp4.CreateEmptyInit()
 	trak := init.AddEmptyTrack(timeScale, "audio", "en")
-	err := trak.SetAACDescriptor(objType, int(timeScale))
+	err := trak.SetAACDescriptor(objType, 2, int(timeScale))
 	if err != nil {
 		return nil, err
 	}

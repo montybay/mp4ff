@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/av1"
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/av1"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 // BenchmarkEncryptFragments encrypts testdata/1.m4s as one fragment of 60 video samples and as 60 one-sample

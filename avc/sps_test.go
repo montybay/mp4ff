@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/avc"
 	"github.com/go-test/deep"
+	"github.com/montybay/mp4ff/avc"
 )
 
 const (

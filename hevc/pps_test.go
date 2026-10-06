@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/bits"
 	"github.com/go-test/deep"
+	"github.com/montybay/mp4ff/bits"
 )
 
 func TestPPSParser(t *testing.T) {

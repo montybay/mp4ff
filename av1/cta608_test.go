@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/sei"
+	"github.com/montybay/mp4ff/sei"
 )
 
 // ccData for one frame with the field-1 control pair 0x94 0x2c, an empty field 2 and

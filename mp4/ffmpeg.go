@@ -4,7 +4,7 @@ package mp4
 import (
 	"io"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // CTooBox - ©too box defines the ffmpeg encoding tool information

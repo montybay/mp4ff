@@ -10,7 +10,7 @@ prepare:
 
 .PHONY: mp4ff-crop mp4ff-decrypt mp4ff-defragment mp4ff-encrypt mp4ff-info mp4ff-mvhevc mp4ff-nallister mp4ff-pslister mp4ff-subslister
 mp4ff-crop mp4ff-decrypt mp4ff-defragment mp4ff-encrypt mp4ff-info mp4ff-mvhevc mp4ff-nallister mp4ff-pslister mp4ff-subslister:
-	go build -ldflags "-X github.com/Eyevinn/mp4ff/internal.commitVersion=$$(git describe --tags HEAD) -X github.com/Eyevinn/mp4ff/internal.commitDate=$$(git log -1 --format=%ct)" -o out/$@ ./cmd/$@/main.go
+	go build -ldflags "-X github.com/montybay/mp4ff/internal.commitVersion=$$(git describe --tags HEAD) -X github.com/montybay/mp4ff/internal.commitDate=$$(git log -1 --format=%ct)" -o out/$@ ./cmd/$@/main.go
 
 .PHONY: examples
 examples: add-sidx combine-segs initcreator multitrack resegmenter segmenter
@@ -30,7 +30,7 @@ testsum: prepare
 open-docs:
 	echo "If needed: go install golang.org/x/pkgsite/cmd/pkgsite@latest"
 	pkgsite -http localhost:9999
-	# open http://localhost:9999/pkg/github.com/Eyevinn/mp4ff/
+	# open http://localhost:9999/pkg/github.com/montybay/mp4ff/
 
 .PHONY: coverage
 coverage:

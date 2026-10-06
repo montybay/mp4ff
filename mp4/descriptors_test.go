@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
 	"github.com/go-test/deep"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 const badSizeDescriptor = `031900010004134015000000000000000001f40005021190060102`

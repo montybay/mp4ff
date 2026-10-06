@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // RecoveryPointAvcSEI carries the data of an AVC SEI 6 RecoveryPoint message.

@@ -3,7 +3,7 @@ package av1
 import (
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // FrameType as signalled in the AV1 uncompressed frame header (spec 6.8.2).

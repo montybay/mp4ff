@@ -6,7 +6,7 @@ import (
 	"math"
 	"slices"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // TrailingBoxesErrror indicates that there are unexpected boxes after the last fragment.

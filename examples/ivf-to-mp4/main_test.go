@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/mp4"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 // TestIVFToMP4 muxes the AV1 and VP9 test IVF files and checks the resulting fragmented MP4: the

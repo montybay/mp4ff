@@ -8,7 +8,7 @@ package vp9
 import (
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // VP9 color_space values (color_config, spec §7.2.2).

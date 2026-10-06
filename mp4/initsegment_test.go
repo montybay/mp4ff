@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/mp4"
 	"github.com/go-test/deep"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 const sps1nalu = "674d401fe4605017fcb80b4f00000300010000030032e4800753003a9e08200e58e189c0"

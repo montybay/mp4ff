@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Eyevinn/mp4ff/bits"
+	"github.com/montybay/mp4ff/bits"
 )
 
 // This parser based on Rec. ITU-T H.265 v5 (02/2018) and ISO/IEC 23008-2 Ed. 5

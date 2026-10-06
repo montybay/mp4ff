@@ -9,10 +9,10 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/Eyevinn/mp4ff/avc"
-	"github.com/Eyevinn/mp4ff/bits"
-	"github.com/Eyevinn/mp4ff/mp4"
 	"github.com/go-test/deep"
+	"github.com/montybay/mp4ff/avc"
+	"github.com/montybay/mp4ff/bits"
+	"github.com/montybay/mp4ff/mp4"
 )
 
 func TestFindAVCSubsampleRanges(t *testing.T) {
